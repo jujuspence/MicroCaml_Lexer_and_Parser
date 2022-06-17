@@ -1,0 +1,119 @@
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:1:public_mutop_pi_def.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:1:public_mutop_pi_def exited with an error.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: P4a.TokenTypes.InvalidInputException("No TokID in Def") in test public:1:public_mutop_pi_def.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at P4a__Parser.parse_mutop in file "src/parser.ml", line 201, characters 8-56
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from Dune__exe__Public.public_mutop_pi_def in file "test/public/public.ml", line 14, characters 16-61
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:1:public_mutop_pi_def.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:2:public_mutop_simple_def_and_let.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:2:public_mutop_simple_def_and_let exited with an error.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: P4a.TokenTypes.InvalidInputException("Expected Tok_Equal from input [Tok_ID(\"y\")], got Tok_ID(\"y\")") in test public:2:public_mutop_simple_def_and_let.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at P4a__Parser.match_token in file "src/parser.ml", line 12, characters 12-204
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from P4a__Parser.parse_mutop in file "src/parser.ml", line 194, characters 17-49
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from Dune__exe__Public.public_mutop_simple_def_and_let in file "test/public/public.ml", line 20, characters 16-83
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:2:public_mutop_simple_def_and_let.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:4:public_expr_apply.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:4:public_expr_apply exited with an error.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: P4a.TokenTypes.InvalidInputException("Expected Tok_Equal from input [Tok_Greater, Tok_ID(\"add1\")], got Tok_Greater") in test public:4:public_expr_apply.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at P4a__Parser.match_token in file "src/parser.ml", line 12, characters 12-204
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from P4a__Parser.parse_let in file "src/parser.ml", line 52, characters 20-49
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from Dune__exe__Public.public_expr_apply in file "test/public/public.ml", line 33, characters 16-124
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:4:public_expr_apply.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:6:public_expr_let_if.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:6:public_expr_let_if exited with an error.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: P4a.TokenTypes.InvalidInputException("Expected Tok_Equal from input [Tok_In], got Tok_In") in test public:6:public_expr_let_if.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at P4a__Parser.match_token in file "src/parser.ml", line 12, characters 12-204
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from P4a__Parser.parse_let in file "src/parser.ml", line 52, characters 20-49
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from Dune__exe__Public.public_expr_let_if in file "test/public/public.ml", line 47, characters 16-96
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:6:public_expr_let_if.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:8:public_expr_minus_one.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:8:public_expr_minus_one exited with an error.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: P4a.TokenTypes.InvalidInputException("Tok_Equal") in test public:8:public_expr_minus_one.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at P4a__Parser.match_token in file "src/parser.ml", line 10, characters 10-60
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from P4a__Parser.parse_let in file "src/parser.ml", line 52, characters 20-49
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from Dune__exe__Public.public_expr_minus_one in file "test/public/public.ml", line 58, characters 16-60
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:8:public_expr_minus_one.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:10:public_expr_sub1.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:10:public_expr_sub1 exited with an error.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: P4a.TokenTypes.InvalidInputException("Parse Let failed") in test public:10:public_expr_sub1.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at P4a__Parser.parse_let in file "src/parser.ml", line 57, characters 7-56
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from Dune__exe__Public.public_expr_sub1 in file "test/public/public.ml", line 83, characters 16-77
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:10:public_expr_sub1.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:12:public_expr_simple_equal.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:12:public_expr_simple_equal has failed.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: public_simple_equal
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: not equal in test public:12:public_expr_simple_equal.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:12:public_expr_simple_equal.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:14:public_expr_simple_div.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:14:public_expr_simple_div has failed.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: public_expr_simple_div
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: not equal in test public:14:public_expr_simple_div.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:14:public_expr_simple_div.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:16:public_expr_simple_sub.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:16:public_expr_simple_sub has failed.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: public_expr_simple_sum
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: not equal in test public:16:public_expr_simple_sub.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:16:public_expr_simple_sub.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:18:public_expr_single_and.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:18:public_expr_single_and has failed.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: public_expr_single_and
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: not equal in test public:18:public_expr_single_and.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:18:public_expr_single_and.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:21:public_expr_single_if.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:21:public_expr_single_if exited with an error.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: P4a.TokenTypes.InvalidInputException("Parse If failed") in test public:21:public_expr_single_if.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at P4a__Parser.parse_if in file "src/parser.ml", line 76, characters 6-54
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from Dune__exe__Public.public_expr_single_if in file "test/public/public.ml", line 144, characters 16-73
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:21:public_expr_single_if.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:22:public_expr_single_let.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:22:public_expr_single_let exited with an error.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: P4a.TokenTypes.InvalidInputException("Parse Let failed") in test public:22:public_expr_single_let.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at P4a__Parser.parse_let in file "src/parser.ml", line 57, characters 7-56
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from Dune__exe__Public.public_expr_single_let in file "test/public/public.ml", line 149, characters 16-59
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:22:public_expr_single_let.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:24:public_expr_single_not.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:24:public_expr_single_not has failed.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: public_expr_single_not
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: not equal in test public:24:public_expr_single_not.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:24:public_expr_single_not.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:26:public_expr_single_or.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Test public:26:public_expr_single_or has failed.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: public_expr_single_or
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: not equal in test public:26:public_expr_single_or.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:26:public_expr_single_or.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Start test public:27:public_expr_single_string.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: Test public:27:public_expr_single_string is successful.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#02 I: End test public:27:public_expr_single_string.

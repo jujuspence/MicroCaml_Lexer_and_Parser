@@ -1,0 +1,45 @@
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 I: Start test pbt:0:test_simple_def.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 I: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 I: law test_simple_def: 0 relevant cases (1 total)
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 I: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: test `test_simple_def`
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: raised exception `P4a.TokenTypes.InvalidInputException("Expected Tok_Equal from input [Tok_ID(\"idstring\")], got Tok_ID(\"idstring\")")`
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: on `0`
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Raised at P4a__Parser.match_token in file "src/parser.ml", line 12, characters 12-204
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Called from P4a__Parser.parse_mutop in file "src/parser.ml", line 194, characters 17-49
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Called from Dune__exe__Pbt.test_simple_def.(fun) in file "test/pbt/pbt.ml", line 14, characters 14-51
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Test pbt:0:test_simple_def exited with an error.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: test `test_simple_def`
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: raised exception `P4a.TokenTypes.InvalidInputException("Expected Tok_Equal from input [Tok_ID(\"idstring\")], got Tok_ID(\"idstring\")")`
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: on `0`
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Raised at P4a__Parser.match_token in file "src/parser.ml", line 12, characters 12-204
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Called from P4a__Parser.parse_mutop in file "src/parser.ml", line 194, characters 17-49
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Called from Dune__exe__Pbt.test_simple_def.(fun) in file "test/pbt/pbt.ml", line 14, characters 14-51
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E:  in test pbt:0:test_simple_def.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 I: End test pbt:0:test_simple_def.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 I: Start test pbt:2:test_sum_small_ints.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 I: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 I: law test_sum_small_ints: 1 relevant cases (1 total)
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 I: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Test pbt:2:test_sum_small_ints has failed.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: test `test_sum_small_ints` failed on ≥ 1 cases:
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: (0, 0) (after 3 shrink steps)
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E:  in test pbt:2:test_sum_small_ints.
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Called from QCheck2.Test.check_cell in file "src/core/QCheck2.ml", line 1605, characters 4-27
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Called from QCheck2.Test.check_cell_exn in file "src/core/QCheck2.ml", line 1770, characters 14-53
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 E: 
+2022-04-25T22:33:07+00:00 wireless-10-104-215-211.umd.edu#01 I: End test pbt:2:test_sum_small_ints.
